@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+float panjang,lebar,luas;
+cout<<"Masukkan panjang Persegi Panjang=";cin>>panjang;
+cout<<"Masukkan lebar Persegi Panjang=";cin>>lebar;
+luas=((panjang*lebar));
+cout<<"Maka luas Persegi panjang adalah"<<luas<<endl<<endl;
+return 0;
+}
